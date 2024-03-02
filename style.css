@@ -1,0 +1,143 @@
+.container header{
+    display: flex;
+    color: white;
+    top: 0%;
+    left: 0%;
+    right: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 8%;
+    height: 50px;
+
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: orange;
+    font-weight: bold;
+}
+header button{
+    background-color: orangered;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+.container{
+    background-image: url(images/talla.png);
+    height: 25rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: calc(0.7);
+}
+.name{
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+input[type="text"]{
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+    width: 22rem;
+
+}
+.name button{
+    background-color: orangered;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 5px 25px;
+    cursor: pointer;
+    margin-left: -10rem;
+}
+.section1{
+    display: flex;
+    color: white;
+    margin-top: 4rem;
+}
+.section1 .left{
+    width: 40%;
+}
+.section1 .right{
+    margin-left: 3rem;
+    width: 50%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.section1 button{
+    background-color: orangered;
+    cursor: pointer;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 12px;
+    border: none;
+}
+.section1 img{
+    width: 100%;
+    height: 25rem;
+    border-radius: 50%;
+    opacity: calc(0.4);
+}
+.section2{
+    color: white;
+    display: flex;
+}
+.section2 .card{
+    background-color: rgb(61, 60, 60);
+    margin: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    opacity: calc(0.7);
+}
+.section2 button{
+    background-color: orangered;
+    cursor: pointer;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 12px;
+    border: none;
+    margin-bottom: 1rem;
+}
+.section3{
+    background-color: rgb(61, 60, 60);
+    height: 8rem;
+    opacity: calc(0.7);
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.viste{
+  padding-top: 3rem;
+}
+.lien{
+    background-color: orangered;
+    cursor: pointer;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 12px;
+    border: none;
+   text-decoration: none;
+}
+footer .info{
+    text-align: center;
+}
+i{
+    color: orangered;
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
